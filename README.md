@@ -14,11 +14,13 @@ PassOP is a full-stack password manager built using the MERN stack. It allows us
 ## Tech Stack
 
 **Frontend**
+
 - React
 - Vite
 - Tailwind CSS
 
 **Backend**
+
 - Node.js
 - Express.js
 - MongoDB
@@ -70,13 +72,9 @@ passop/
 
 ## Screenshots
 
-### Home
-
-(Add screenshot)
-
 ### Password Manager
 
-(Add screenshot)
+![Home](screenshots/home.png)
 
 ## Live Demo
 
