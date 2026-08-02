@@ -74,13 +74,7 @@ passop/
 
 ### Password Manager
 
-![Home](screenshots/home.png)
-
-## Live Demo
-
-Frontend: https://your-vercel-link.vercel.app
-
-Backend: https://your-render-link.onrender.com
+![Home](screenshots/home.png)git add README.md
 
 ## Future Improvements
 
