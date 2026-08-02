@@ -74,7 +74,7 @@ passop/
 
 ### Password Manager
 
-![Home](screenshots/home.png)git add README.md
+![Home](screenshots/home.png)
 
 ## Future Improvements
 
