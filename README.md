@@ -1,16 +1,98 @@
-# React + Vite
+# PassOP
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+PassOP is a full-stack password manager built using the MERN stack. It allows users to store, edit, delete, and manage website credentials through a simple interface.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Add new passwords
+- Edit saved passwords
+- Delete passwords
+- Copy username and password
+- Store data in MongoDB
+- Responsive UI
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Frontend**
+- React
+- Vite
+- Tailwind CSS
 
-## Expanding the ESLint configuration
+**Backend**
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/29uttam/passop.git
+cd passop
+```
+
+Install frontend dependencies:
+
+```bash
+npm install
+npm run dev
+```
+
+Start the backend:
+
+```bash
+cd backend
+npm install
+npm start
+```
+
+## Environment Variables
+
+Create a `.env` file inside the `backend` folder.
+
+```env
+MONGO_URI=your_mongodb_connection_string
+PORT=3000
+```
+
+## Project Structure
+
+```
+passop/
+│── backend/
+│── public/
+│── src/
+│── package.json
+│── README.md
+```
+
+## Screenshots
+
+### Home
+
+(Add screenshot)
+
+### Password Manager
+
+(Add screenshot)
+
+## Live Demo
+
+Frontend: https://your-vercel-link.vercel.app
+
+Backend: https://your-render-link.onrender.com
+
+## Future Improvements
+
+- User authentication
+- Password encryption
+- Search functionality
+- Dark mode
+
+## Author
+
+Uttam Kumar
+
+GitHub: https://github.com/29uttam
